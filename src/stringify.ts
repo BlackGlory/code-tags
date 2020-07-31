@@ -10,7 +10,7 @@ function isArray<T>(val: unknown): val is T[] {
   return Array.isArray(val)
 }
 
-function isObject(val: unknown): val is object {
+function isObject(val: unknown): val is Record<string, unknown> {
   return typeof val === 'object'
 }
 
@@ -30,7 +30,7 @@ function stringifyString(val: string): string {
   return JSON.stringify(val)
 }
 
-function stringifyObject(val: object): string {
+function stringifyObject(val: Record<string, unknown>): string {
   return JSON.stringify(val)
 }
 
