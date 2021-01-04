@@ -5,8 +5,8 @@
     "lib",
     "dist"
   ],
-  "main": "lib/es2015/index.js",
-  "types": "lib/es2015/index.d.ts",
+  "main": "lib/es2018/index.js",
+  "types": "lib/es2018/index.d.ts",
   "repository": "git@github.com:BlackGlory/code-tags.git",
   "author": "BlackGlory <woshenmedoubuzhidao@blackglory.me>",
   "license": "MIT",
@@ -18,8 +18,9 @@
     "clean": "yarn clean:build && yarn clean:bundle",
     "clean:build": "rm -rf lib",
     "clean:bundle": "rm -rf dist",
-    "build": "yarn build:es2015",
+    "build": "yarn build:es2015 && yarn build:es2018",
     "build:es2015": "tsc --project tsconfig.build.json --module commonjs --target es2015 --outDir lib/es2015 && tscpaths -p tsconfig.build.json -s ./src -o ./lib/es2015",
+    "build:es2018": "tsc --project tsconfig.build.json --module commonjs --target es2018 --outDir lib/es2018 && tscpaths -p tsconfig.build.json -s ./src -o ./lib/es2018",
     "bundle": "rollup --config rollup.config.js"
   },
   "husky": {
@@ -32,6 +33,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.1",
     "@rollup/plugin-typescript": "^8.1.0",
     "@types/common-tags": "^1.8.0",
@@ -42,6 +44,7 @@
     "husky": "^4.3.6",
     "jest": "^26.6.3",
     "rollup": "^2.35.1",
+    "rollup-plugin-analyzer": "^4.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "ts-jest": "^26.4.4",
     "tscpaths": "^0.0.9",
