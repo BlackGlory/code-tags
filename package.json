@@ -7,8 +7,6 @@
   ],
   "main": "lib/es2015/index.js",
   "types": "lib/es2015/index.d.ts",
-  "module": "dist/es2015/index.mjs",
-  "browser": "dist/es2015/index.umd.js",
   "repository": "git@github.com:BlackGlory/code-tags.git",
   "author": "BlackGlory <woshenmedoubuzhidao@blackglory.me>",
   "license": "MIT",
