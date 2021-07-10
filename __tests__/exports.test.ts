@@ -2,7 +2,7 @@ import * as target from '@src/index'
 
 test('exports', () => {
   const expected = [
-    'code'
+    'javascript'
 
   , 'IIFE'
   , 'IIAFE'
