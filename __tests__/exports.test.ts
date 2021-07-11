@@ -4,8 +4,8 @@ test('exports', () => {
   const expected = [
     'javascript'
 
-  , 'IIFE'
-  , 'IIAFE'
+  , 'IIAF'
+  , 'IIAAF'
   ].sort()
 
   const exports = Object.keys(target).sort()

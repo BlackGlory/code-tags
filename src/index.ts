@@ -1,4 +1,4 @@
 export * from './javascript'
 
-export * from './iife'
-export * from './iiafe'
+export * from './iiaaf'
+export * from './iiaf'

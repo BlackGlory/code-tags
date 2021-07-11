@@ -1,7 +1,7 @@
-import { IIFE } from '@src/iife'
+import { IIAF } from '@src/iiaf'
 
-test('IIFE(strings: TemplateStringsArray, ...values: Value[]): string', () => {
-  const result = IIFE`
+test('IIAF(strings: TemplateStringsArray, ...values: Value[]): string', () => {
+  const result = IIAF`
     console.log(${'hello world'})
   `
 

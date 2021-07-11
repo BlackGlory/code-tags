@@ -2,7 +2,10 @@ import { javascript } from './javascript'
 import { dedent } from 'extra-tags'
 import { Value } from './types'
 
-export function IIFE(
+/**
+ * Immediately Invoked Arrow Function
+ */
+export function IIAF(
   strings: TemplateStringsArray
 , ...values: Value[]
 ): string {

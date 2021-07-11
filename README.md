@@ -29,14 +29,14 @@ type Value =
 function javascript(strings: TemplateStringsArray, ...values: Value[]): string
 ```
 
-### IIFE
+### IIAF
 
 ```ts
-function IIFE(strings: TemplateStringsArray, ...values: Value[]): string
+function IIAF(strings: TemplateStringsArray, ...values: Value[]): string
 ```
 
-### IIAFE
+### IIAAF
 
 ```ts
-function IIAFE(strings: TemplateStringsArray, ...values: Value[]): string
+function IIAAF(strings: TemplateStringsArray, ...values: Value[]): string
 ```
