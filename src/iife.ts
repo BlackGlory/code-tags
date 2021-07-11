@@ -1,5 +1,5 @@
 import { javascript } from './javascript'
-import { removeMultilineHeader, removeMultilineFooter, removeExtraIndents } from 'extra-tags'
+import { dedent } from 'extra-tags'
 import { Value } from './types'
 
 export function IIFE(
@@ -8,9 +8,9 @@ export function IIFE(
 ): string {
   const codes = javascript(strings, ...values)
 
-  return removeExtraIndents(removeMultilineFooter(removeMultilineHeader(`
+  return dedent`
     ;(() => {
       ${codes}
     })();
-  `)))
+  `
 }

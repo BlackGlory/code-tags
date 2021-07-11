@@ -2473,10 +2473,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extra-tags@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/extra-tags/-/extra-tags-0.1.0.tgz#0f99d912500cde698ba9b1716a2b0318d5f131cc"
-  integrity sha512-8I8LjFmQUlpYUTt5w9GSrnTPwi6ditBMP4vXfK7A6WP/7Jr308Ir5geTig5GMCDfex8haHdVEyosTAOWToPX4g==
+extra-tags@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/extra-tags/-/extra-tags-0.1.1.tgz#d17b4352bc9da336efa8b841bdadc484f22cfc01"
+  integrity sha512-G07P+G1EzuoLhxljdUJli65ROCoCSDBulpNmYHD0rbxqhYPVp0rO7CCu+L8GUlHs+ZeX5cgHHTC0OEl2y2qdsw==
   dependencies:
     justypes "^0.1.5"
 
@@ -4991,10 +4991,10 @@ rollup-plugin-terser@^7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup@^2.53.0:
-  version "2.53.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.53.0.tgz#5b6bc7820a03f361d2ae3dcabdc99d269a754709"
-  integrity sha512-spgrY78Toh+m0+zaOoeaayJKuzFuWy6o1PdFIBMVwRcuxT0xCOX9A5rChyKe+2ruL4lePKWUMImS4mMW1QAkmQ==
+rollup@^2.53.1:
+  version "2.53.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.53.1.tgz#b60439efd1eb41bdb56630509bd99aae78b575d3"
+  integrity sha512-yiTCvcYXZEulNWNlEONOQVlhXA/hgxjelFSjNcrwAAIfYx/xqjSHwqg/cCaWOyFRKr+IQBaXwt723m8tCaIUiw==
   optionalDependencies:
     fsevents "~2.3.2"
 

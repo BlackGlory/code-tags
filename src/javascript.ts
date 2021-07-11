@@ -1,17 +1,9 @@
-import {
-  map
-, toString
-, removeExtraIndents
-, removeMultilineFooter
-, removeMultilineHeader
-} from 'extra-tags'
+import { map, dedent } from 'extra-tags'
 import { isObject, isFunction, isString, isBigInt } from '@blackglory/types'
 import { Value } from './types'
 
 export function javascript(strings: TemplateStringsArray, ...values: Value[]): string {
-  return removeExtraIndents(removeMultilineFooter(removeMultilineHeader(toString(
-    ...map(stringify)(strings, ...values)
-  ))))
+  return dedent(...map(stringify)(strings, ...values))
 }
 
 function stringify(val: Value): string {
