@@ -40,3 +40,15 @@ function IIAF(strings: TemplateStringsArray, ...values: Value[]): string
 ```ts
 function IIAAF(strings: TemplateStringsArray, ...values: Value[]): string
 ```
+
+### IIFE
+
+```ts
+function IIFE(strings: TemplateStringsArray, ...values: Value[]): string
+```
+
+### IIAFE
+
+```ts
+function IIAFE(strings: TemplateStringsArray, ...values: Value[]): string
+```

@@ -6,6 +6,9 @@ test('exports', () => {
 
   , 'IIAF'
   , 'IIAAF'
+
+  , 'IIFE'
+  , 'IIAFE'
   ].sort()
 
   const exports = Object.keys(target).sort()
