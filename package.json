@@ -61,6 +61,6 @@
   },
   "dependencies": {
     "@blackglory/types": "^0.4.7",
-    "extra-tags": "^0.1.1"
+    "extra-tags": "^0.2.0"
   }
 }
