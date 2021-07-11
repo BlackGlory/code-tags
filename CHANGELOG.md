@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/BlackGlory/code-tags/compare/v0.2.0...v0.3.0) (2021-07-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* - Rename IIFE to IIAF
+- Rename IIAFE to IIAAF
+
+### Features
+
+* add IIFE, IIAFE ([73a169f](https://github.com/BlackGlory/code-tags/commit/73a169f2d18330f32ed6a317d360836c1f80c54a))
+
+
+* rename IIFE to IIAF, IIAFE to IIAAF ([e6af264](https://github.com/BlackGlory/code-tags/commit/e6af2643890a9602b689054fa8405b4aaa8b865c))
+
 ## [0.2.0](https://github.com/BlackGlory/code-tags/compare/v0.1.10...v0.2.0) (2021-07-10)
 
 
